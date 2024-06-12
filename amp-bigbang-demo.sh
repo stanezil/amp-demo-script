@@ -26,6 +26,8 @@ function check_pod_ready() {
 # Function to display the menu and handle user input
 function display_menu() {
   while true; do
+    echo 
+    echo "***Please set Real-time Malware Protection Runtime Security Control into Delete Action before Proceeding***"
     echo
     echo "Choose an option:"
     echo "1. NotPetya Ransomware"
